@@ -75,5 +75,5 @@ void Vec2::normalize()
 Vec2 Vec2::normalize(Vec2 vector)
 {
   double L{std::sqrt(vector.x * vector.x + vector.y * vector.y)};
-  return Vec2(vector.x / L, vector.x / L);
+  return Vec2(vector.x / L, vector.y / L);
 }
